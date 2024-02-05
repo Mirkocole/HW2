@@ -2,7 +2,7 @@ function search() {
 
 
     let field = document.getElementById('searchField');
-    let artista = field.value;
+    let artista = field.value.toLowerCase();
     if (artista && artista !== '') {
 
         let hiddenCards = document.querySelectorAll('div.row div.col-10');
