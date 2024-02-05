@@ -78,7 +78,7 @@ function initAlbum() {
 initAlbum();
 
 
-function test() {
+function modalList() {
 
 
     let search = document.getElementById('searchField');
@@ -132,5 +132,4 @@ function test() {
     }
 }
 
-// test();
 
